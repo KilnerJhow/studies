@@ -6,40 +6,36 @@ void swap(int *a, int*b) {
     *b = tmp;
 }
 
-void selectionSort(int array[], int count) {
+void printArray(int arr[], int count) {
+    int i;
     
-    int i, j, aux = 0, aux2, menor = array[0];
-    for(j = 0; j < (count-1); j++) {
-        for(i = aux; i < count; i++) {
-            
-            if( menor > array[i] ) {
-                menor = array[i];
-                aux2 = i;
-                
-            }
-            
-        }
-        
-        if(array[aux] > array[aux2]) swap(&array[aux], &array[aux2]);
-        aux++;
-        printf("Menor elemento neste passo: %d\n", menor);
-        printf("Estado Atual:");
-        
-        for(i = 0; i < count; i++) {
-            if(i == (count-1)) printf(" %d", array[i]);
-            else printf(" %d |", array[i]);
-        }
-        printf("\n\n");
-        menor = array[aux];
-    }
-    
-    printf("Resultado Final:");
     for(i = 0; i < count; i++) {
-        if(i == (count-1)) printf(" %d", array[i]);
-        else printf(" %d |", array[i]);
+        if(i == count-1) printf("%d", arr[i]);
+        else printf("%d | ", arr[i]);
     }
-    printf("\n\n");
+    printf("\n");
+    //("\n");
+}
+
+void selectionSort(int arr[], int count) {
     
+    int i, j, posicao = 0, posicaoElemento = 0;
+    int count2 = count - 1;
+    for(i = 0; i < count2; i++) {
+        posicaoElemento = i;
+        for(j = i; j < count; j++) {
+                if(arr[j] < arr[posicaoElemento]) posicaoElemento = j;
+        }
+        printf("Menor elemento neste passo: %d\n", arr[posicaoElemento]);
+        swap(&arr[i], &arr[posicaoElemento]);
+        printf("Estado Atual: ");
+        printArray(arr, count);
+        printf("\n");
+        //printf("I: %d Menor: %d Posicao: %d\n\n",i, menor, posicao);
+    }
+    printf("Resultado Final: ");
+    printArray(arr, count);
+    printf("\n");
 }
 
 
@@ -55,7 +51,8 @@ int main() {
         count++;
         
     }
-    
+    //printf("Count: %d\n", count);
+    //printArray(array, count);
     selectionSort(array, count);
     
     return 0;
