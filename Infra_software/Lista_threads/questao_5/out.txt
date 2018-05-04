@@ -1,0 +1,237 @@
+
+Cap atual do aerotaxi: 3
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 19
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 19
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 19
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 18
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 18
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 18
+
+Cap atual do aerotaxi: 0
+Lotacao do aerotaxi: 0
+
+Cap atual do aerotaxi: 3
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 17
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 17
+
+Cap atual do aerotaxi: 0
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 17
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 16
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 16
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 16
+
+Cap atual do aerotaxi: 4
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 15
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 15
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 15
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 14
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 14
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 14
+
+Cap atual do aerotaxi: 2
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 13
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 13
+
+Cap atual do aerotaxi: 0
+Lotacao do aerotaxi: 0
+
+Cap atual do aerotaxi: 4
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 12
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 13
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 12
+
+Cap atual do aerotaxi: 3
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 11
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 12
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 10
+
+Cap atual do aerotaxi: 0
+Lotacao do aerotaxi: 0
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 11
+
+Cap atual do aerotaxi: 2
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 9
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 11
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 10
+
+Cap atual do aerotaxi: 1
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 10
+
+Cap atual do aerotaxi: 3
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 9
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 8
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 9
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 8
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 7
+
+Cap atual do aerotaxi: 4
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 7
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 8
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 6
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 6
+
+Cap atual do aerotaxi: 0
+Lotacao do aerotaxi: 0
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 5
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 7
+
+Cap atual do aerotaxi: 3
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 4
+Lotacao do aerotaxi: 0
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 6
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 5
+
+Cap atual do aerotaxi: 0
+Lotacao do aerotaxi: 0
+
+Cap atual do aerotaxi: 4
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 3
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 4
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 5
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 3
+
+Cap atual do aerotaxi: 2
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 2
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 2
+
+Cap atual do aerotaxi: 3
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 1
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 4
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 1
+
+Cap atual do aerotaxi: 4
+Lotacao do aerotaxi: 0
+Passageiro da fila#2 entrando no aerotaxi
+Passageiros restantes na fila#2 - 0
+
+Cap atual do aerotaxi: 2
+Vazia: 1
+Fila#2 vazia!
+Lotacao do aerotaxi: 0
+Passageiro da fila#1 entrando no aerotaxi
+Passageiros restantes na fila#1 - 0
+Fila vazia, saindo da thread#2
+Fila vazia, saindo da thread#1
+Passageiro da fila#0 entrando no aerotaxi
+Passageiros restantes na fila#0 - 3
+
+Cap atual do aerotaxi: 3
+Vazia: 2
+Fila#1 vazia!
+Vazia: 3
+Fila#2 vazia!
+Lotacao do aerotaxi: 3
+Todas as filas esvaziadas
+Fila 0: 3
+Fila 1: 0
+Fila 2: 0
