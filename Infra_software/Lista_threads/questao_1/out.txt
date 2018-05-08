@@ -1,0 +1,100 @@
+[31mABC123 Recife            19:00
+[0m[33mD34D82 Sao Paulo         18:23
+[0m[34mXYZ001 Tóquio            17:50
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mGHI456 Lisboa            18:50
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mAQT123 Frankfurt         20:00
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mD34D82 Sao Paulo         18:23
+[0m[34mHJF356 Antártica         09:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mGHI456 Lisboa            18:50
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mAQT123 Frankfurt         20:00
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mHJF356 Antártica         09:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mGHI456 Lisboa            18:50
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mAQT123 Frankfurt         20:00
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mFFF453 Ceará             15:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mHDJ943 Rio de Janeiro    20:00
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mAQT123 Frankfurt         20:00
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mFFF453 Ceará             15:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mHDJ943 Rio de Janeiro    20:00
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mAQT123 Frankfurt         20:00
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mFFF453 Ceará             15:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mHDJ943 Rio de Janeiro    20:00
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mDMF345 Paris             12:50
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mGHD056 ALGUM LUGAR       20:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mHDJ943 Rio de Janeiro    20:00
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mDMF345 Paris             12:50
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mDCD245 No céu            19:00
+[0m[35mFFF305 Estocolmo         18:35
+[0m[32mHDJ943 Rio de Janeiro    20:00
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mDMF345 Paris             12:50
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mDCD245 No céu            19:00
+[0m[35mLKD494 Tem               10:50
+[0m[32mHDJ943 Rio de Janeiro    20:00
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mDMF345 Paris             12:50
+[0m
+
+
+[31mABC123 Recife            19:00
+[0m[33mDFE985 São Francisco     15:50
+[0m[34mDCD245 No céu            19:00
+[0m[35mLKD494 Tem               10:50
+[0m[32mDHF341 Pão               10:00 
+[0m[36mDEF321 Nairóbi           19:00
+[0m[36mDMF345 Paris             12:50
+[0m
+
+
