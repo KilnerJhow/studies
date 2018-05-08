@@ -28,7 +28,7 @@
 #define N_THREADS 3
 #define TABLE_TAM 25
 
-
+#define ANSI_COLOR_BLACK_  "\e[0;40m"
 #define ANSI_COLOR_RED     "\x1b[41m"
 #define ANSI_COLOR_GREEN   "\x1b[42m"
 #define ANSI_COLOR_YELLOW  "\x1b[43m"
@@ -37,6 +37,7 @@
 #define ANSI_COLOR_CYAN    "\x1b[46m"
 #define ANSI_COLOR_RESET   "\x1b[0m"
 
+#define ANSI_COLOR_BLACK "\e[0;30m"
 #define ANSI_COLOR_RED_1     "\x1b[31m"
 #define ANSI_COLOR_GREEN_1   "\x1b[32m"
 #define ANSI_COLOR_YELLOW_1 "\x1b[33m"
@@ -180,7 +181,7 @@ void *readFile(void *arq) {
             wcscpy(monitor_lines[attLine - 1], line);
 
             //Espera 2 segundos para poder atualizar o quadro
-            // sleep(2);
+            sleep(2);
 
             //Printamos o quadro atual dos voos
             print_monitor_lines();
@@ -231,31 +232,37 @@ void print_monitor_lines() {
     pthread_mutex_lock(&printBlock);
     
     manageString();
-
+    printf(ANSI_COLOR_BLACK);
     printf(ANSI_COLOR_RED "%S", flightDetails_lines[0]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[0]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[0]);
 
+    printf(ANSI_COLOR_BLACK);
     printf(ANSI_COLOR_YELLOW "%S", flightDetails_lines[1]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[1]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[1]);
 
+
+    printf(ANSI_COLOR_BLACK);
     printf(ANSI_COLOR_BLUE "%S", flightDetails_lines[2]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[2]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[2]);
 
+    printf(ANSI_COLOR_BLACK);
     printf(ANSI_COLOR_MAGENTA "%S", flightDetails_lines[3]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[3]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[3]);
 
+    printf(ANSI_COLOR_BLACK);
     printf(ANSI_COLOR_GREEN "%S", flightDetails_lines[4]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[4]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[4]);
 
-    printf(ANSI_COLOR_CYAN "%S", flightDetails_lines[5]);
+    printf(ANSI_COLOR_BLACK_ "%S", flightDetails_lines[5]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[5]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[5]);
 
+    printf(ANSI_COLOR_BLACK);
     printf(ANSI_COLOR_CYAN "%S", flightDetails_lines[6]);
     printSpace(TABLE_TAM - wcslen(flightDetails_lines[6]));
     printf("%S\n"ANSI_COLOR_RESET, hour_lines[6]);
