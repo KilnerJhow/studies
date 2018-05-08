@@ -1,29 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-double sum(double a[][2], double x[][10], int k, int i);
+double sum(double a[][3], double x[][10], int k, int i);
 
 int main() {
 
     int k  = 0, P = 10;
-    double a[2][2] = {
-        { 2, 1},
-        { 5, 7}
+   
+    double a[3][3] = {
+        { 1, -1, 1},
+        { 1, 1, -1},
+        { 1, 1,  3}
     };
 
     // printf("a[0][0]: %d", )
 
     //Primeiro elemento linha, segundo coluna
-    double b[2]= {11, 13};
 
-    double x[2][P];
+    double b[3] = {4, 2, 3};
+
+    double x[3][P];
     x[0][0] = 1;
     x[1][0] = 1;
+    x[2][0] = 1;
     int i = 0, j = 1;
 
     while(k < P) {
 
-        for(i = 0; i < 2; i++) {
+        for(i = 0; i < 3; i++) {
             
             double sum1 = sum(a, x, k, i); 
 
@@ -37,19 +41,24 @@ int main() {
     }
 
     
-    for(i = 0; i < P; i++) {
-        printf("X[%d][%d] = %f\n", i%2, i, x[i%2][i]);
+    for(i = 0; i < 3; i++) {
+        for(j = 0; j < P; j++) {
+            printf("X[%d][%d] = %.2f\n", i, j, x[i][j]);
+        }
+        
     }
+
+    printf("Valores finais: %lf %lf %lf\n", x[0][9], x[1][9], x[2][9]);
 
     return 0; 
 }
 
-double sum(double a[][2], double x[][10], int k, int i) {
+double sum(double a[][3], double x[][10], int k, int i) {
 
     double sum = 0;
     int j;
 
-    for(j = 0; j < 2; j++) {
+    for(j = 0; j < 3; j++) {
         if(i != j) {
             sum += a[i][j] * x[j][k];
             printf("Sum: %lf\n", sum);

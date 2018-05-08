@@ -6,21 +6,22 @@ void *jacobi_algorithm(void *(N));
 double sum(int k, int i);
 
 #define N_ITERACOES 10
-#define N_ICOGNITA 2
+#define N_ICOGNITA 3
 
 //Matriz dos constantes que multiplicam x e y
-double a[2][2] = {
-    { 2, 1},
-    { 5, 7}
+double a[3][3] = {
+    { 1, -1, 1},
+    { 1, 1, -1},
+    { 1, 1,  3}
 };
 
 //Primeiro elemento linha, segundo coluna
 //Valores do segundo membro de cada equação
-double b[2] = {11, 13};
+double b[2] = {4, 2, 3};
 
 //Icógnitas do tipo X[i]^k, limitadas pelo n° de iterações
 //Possui 2 variáveis e 10 iterações
-double x[2][N_ITERACOES];
+double x[3][N_ITERACOES];
 
 static pthread_barrier_t barrier;
 static pthread_mutex_t print = PTHREAD_MUTEX_INITIALIZER;
@@ -29,6 +30,7 @@ int main() {
         
     x[0][0] = 1;
     x[1][0] = 1;
+    x[2][0] = 1;
 
     //Var auxiliar
     int i = 0, j = 0, N = 2, N_Icognitas = 2;
@@ -65,9 +67,9 @@ int main() {
 
 void *jacobi_algorithm(void *(N)) {
     
-    int k = 0, P = N_ITERACOES;
-    int i = 1;
+    int k = 0, P = N_ITERACOES, i;
     int tid = *(int*) N;
+
     printf("Thread: %d\n", tid);
     while(k < P) {
 
@@ -80,11 +82,7 @@ void *jacobi_algorithm(void *(N)) {
             printf("Thread#%d calculando x[%d][%d]\n", tid, tid, k + 1);
             pthread_mutex_unlock(&print);
             
-            x[tid][k + 1] = ((1/a[i][i]) * (b[i] - sum1)); 
-            // x[tid][k+1] = ((1/a[tid][tid]) * (b[tid] - sum1));
-            // printf("a: %f b: %f sum1: %f\n", a[tid][tid], b[tid], sum1);
-            // printf("x[%d][%d] = %f\n", tid, k+ 1, x[tid][k+1]);
-            
+            x[tid][k + 1] = ((1/a[i][i]) * (b[i] - sum1));             
         }
         
         //Sincroniza cada thread para passar para a próxima iteração

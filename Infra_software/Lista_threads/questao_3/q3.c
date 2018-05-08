@@ -180,6 +180,7 @@ void verifyPlayers() {
     // printf("Unlocked!\n");
 }
 
+//
 void get_player_played(int i) {
      player[i] = 1 + rand()%3;
 }
